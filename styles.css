@@ -57,22 +57,9 @@ img{
 
 .ingcontainer,
 .instcontainer{
-    display: block;
-    width: 100%;
-    max-width: 1000px;
     background-color: bisque;
     padding: 5px;
     border: 1px solid cornflowerblue;   
-}
-
-@media only screen and (max-width: 250px) {
-    .ingcontainer,
-    .instcontainer{
-        display: block;
-        width: 100%;
-        max-width: none;
-
-    }
 }
 .ingcontainer{
     margin: 0 auto;
