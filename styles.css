@@ -19,6 +19,9 @@ html{
     border: 1px solid black;
 }
 
+.header.homepg{}
+
+
 .header.recipe{
     background-color: blanchedalmond;
 }
@@ -59,8 +62,6 @@ img{
 .ingcontainer{
     background-color: bisque;
     width: 50%;
-    min-width: 500px;
-    max-width: 500px;
     padding: 5px;
     margin: 0 auto;
     border: 1px solid cornflowerblue;
@@ -68,9 +69,7 @@ img{
 }
 
 .ingredients{
-    width:25%;
-    min-width: 200px;
-    max-width: 200px;
+    width: 30%;
     margin: 0 auto;
     background-color: whitesmoke;  
     text-align: center;
