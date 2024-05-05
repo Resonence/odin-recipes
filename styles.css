@@ -58,6 +58,7 @@ img{
 
 .ingcontainer{
     background-color: bisque;
+    width: 50%;
     padding: 5px 5px 5px 10px;
     margin: 0 auto;
     border: 1px solid cornflowerblue;
@@ -65,11 +66,10 @@ img{
 }
 
 .ingredients{
-    text-align: center;
-    width: 15%;
+    width:25%;
+    margin: 0 auto;
     background-color: whitesmoke;  
-}
-
-.inglist{
-padding-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
 }
