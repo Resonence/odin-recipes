@@ -74,4 +74,5 @@ img{
     margin: 0 auto;
     background-color: whitesmoke;  
     text-align: center;
+    max-width: 1250px;
 }
