@@ -65,7 +65,7 @@ img{
     border: 1px solid cornflowerblue;   
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 250px) {
     .ingcontainer,
     .instcontainer{
         display: block;
