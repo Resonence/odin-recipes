@@ -59,7 +59,8 @@ img{
 .instcontainer{
     background-color: bisque;
     padding: 5px;
-    border: 1px solid cornflowerblue;   
+    border: 1px solid cornflowerblue;
+    max-width: 1250px;   
 }
 .ingcontainer{
     margin: 0 auto;
@@ -74,5 +75,4 @@ img{
     margin: 0 auto;
     background-color: whitesmoke;  
     text-align: center;
-    max-width: 1250px;
 }
