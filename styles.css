@@ -19,9 +19,6 @@ html{
     border: 1px solid black;
 }
 
-.header.homepg{}
-
-
 .header.recipe{
     background-color: blanchedalmond;
 }
@@ -29,7 +26,7 @@ html{
 .recipelinks{
     background-color: powderblue;
     border: 1px dotted black;
-    width: 450px;
+    width: 50%;
     margin: auto;
 }
 
@@ -59,17 +56,23 @@ img{
     font-family: "Times New Roman", sans-serif;
 }
 
-.ingcontainer{
+.ingcontainer,
+.instcontainer{
     background-color: bisque;
-    width: 50%;
     padding: 5px;
-    margin: 0 auto;
-    border: 1px solid cornflowerblue;
-    
+    border: 1px solid cornflowerblue;   
 }
 
-.ingredients{
-    width: 30%;
+.ingcontainer{
+    margin: 0 auto;
+}
+
+.instcontainer{
+    margin: 10px auto;
+}
+
+.ingredients,
+.instructions{
     margin: 0 auto;
     background-color: whitesmoke;  
     text-align: center;
