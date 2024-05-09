@@ -22,9 +22,8 @@ html{
 
 .hpage-body{
     display: flex;
-    flex: 1;
+    flex-grow: 1;
 }
-
 .hpage-header{
     display: flex;
     justify-content: center;
@@ -55,27 +54,25 @@ html{
 .hpage-link-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    padding: 40px;
+    gap: 32px;
+    padding: 48px;
 }
 
 .cards{
-    display: flex;
-    align-items: center;
     text-align: center;
     width: 300px;
-    height: 225px;
     background: #A5CBA9;
     border-radius: 10px;
     border: 1px solid;
+    padding: 16px;
 }
 
-.footer{
+/* .footer{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     background: #eee;
-}
+} */
 
 .hpage-li{
     margin-bottom: 10px;
