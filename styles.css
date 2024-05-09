@@ -1,6 +1,5 @@
 html{
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 *,
@@ -9,70 +8,84 @@ html{
     box-sizing: inherit;
 }
 
-
-
-.header{
-    text-align: center;
-    background-color: aquamarine;
-    width: 350px;
-    margin: 10px auto;
-    border: 1px solid black;
+/* *{
+    border: 1px solid;
+} */
+.hpage-main-body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: #FFA07A;
 }
 
-.header.recipe{
-    background-color: blanchedalmond;
+.hpage-body{
+    display: flex;
+    flex: 1;
 }
 
-.recipelinks{
-    background-color: powderblue;
-    border: 1px dotted black;
-    max-width: 500px;
-    margin: auto;
+.hpage-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E3CEB7;
+    font-size: 30px;
+    font-weight: 900;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50px;
 }
 
-.links{
-    padding: 5px;
-    
+.sidebar{
+    width: 300px;
+    flex-shrink: 0;
+    padding: 16px;
+    background: #E3CEB7;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
-.homepagelist{
-    text-align: center;
+.sbar-ul{
+    margin: 0;
     padding: 0;
-    list-style-position: inside;
-    list-style: none;
+    text-align: center;
+}
+
+.hpage-link-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 225px;
+    background: #A5CBA9;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+}
+
+.hpage-li{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 img{
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    border: 1px solid black;
-}
-
-.descrip{
-    text-align: center;
-    margin: auto; 
-    font-family: "Times New Roman", sans-serif;
-}
-
-.ingcontainer,
-.instcontainer{
-    background-color: bisque;
-    padding: 5px;
-    border: 1px solid cornflowerblue;
-    max-width: 1250px;   
-}
-.ingcontainer{
-    margin: 0 auto;
-}
-
-.instcontainer{
-    margin: 10px auto;
-}
-
-.ingredients,
-.instructions{
-    margin: 0 auto;
-    background-color: whitesmoke;  
-    text-align: center;
+    border-radius: 4px;
 }
